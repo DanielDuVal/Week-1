@@ -12,7 +12,7 @@ public class Icing extends CakeDecorator{
 	
 	@Override
 	public String getDescription() {
-		return cake.getdescription() + ", icing";
+		return cake.getDescription() + ", icing";
 	}
 
 	@Override

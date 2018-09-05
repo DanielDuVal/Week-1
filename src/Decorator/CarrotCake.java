@@ -10,6 +10,6 @@ public class CarrotCake extends Cake {
 	
 	@Override
 	public double cost() {
-		return 0;
+		return 9.99;
 	}	
 }

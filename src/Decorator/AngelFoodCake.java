@@ -8,7 +8,6 @@ public class AngelFoodCake extends Cake {
 		description = "Angel Food Cake";
 	}
 	
-	@Override
 	public double cost() {
 		return 7.99;
 	}

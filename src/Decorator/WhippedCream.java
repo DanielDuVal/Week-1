@@ -12,7 +12,7 @@ Cake cake;
 
 	@Override
 	public String getDescription() {
-		return cake.getdescription() + ", whipped cream";
+		return cake.getDescription() + ", whipped cream";
 	}
 
 	@Override

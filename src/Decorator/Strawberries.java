@@ -6,16 +6,14 @@ public class Strawberries extends CakeDecorator {
 
 	Cake cake;
 	
-	public Strawberries (Cake cake) {
+	public Strawberries(Cake cake) {
 		this.cake = cake;
 	}
 
-	@Override
 	public String getDescription() {
-		return cake.getdescription() + ", strawberries";
+		return cake.getDescription() + ", strawberries";
 	}
 
-	@Override
 	public double cost() {
 		return .50 + cake.cost();
 	}

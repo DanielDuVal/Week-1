@@ -6,7 +6,7 @@ public abstract class Cake {
 
 	String description = "Unknown Good";
 	
-	public String getdescription() {
+	public String getDescription() {
 		return description;
 	}
 	
